@@ -16,7 +16,7 @@ def get_sales_data():
     """
     Get figures input from user
     """
-    print("Please enter sales data from last market day.")
+    print("Please enter sales data from latest market day.")
     print("Data should be six numbers, separated by comma.")
     print("Example 32, 19, 20, 21, 12, 10\n")
 
