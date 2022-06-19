@@ -32,7 +32,7 @@ def get_sales_data():
         if validate_data(sales_data):
             print("Well done! Data is correct!!")
             break
-        
+
     return sales_data            
 
 
@@ -65,6 +65,13 @@ def update_sales_worksheet(data):
     print("Sales worksheet updated successfully.\n")
 
 
-data = get_sales_data()
-sales_data = [int(num) for num in data]
-update_sales_worksheet(sales_data)
+def main():
+    """
+    Runs all program functions
+    """
+    data = get_sales_data()
+    sales_data = [int(num) for num in data]
+    update_sales_worksheet(sales_data)
+
+print("Welcome to Annes Love Sandwices Data Automation")
+main()
